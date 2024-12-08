@@ -165,7 +165,7 @@ button {
   margin: 0;
 }
 
-p.info {
+.info {
   margin-top: 1.5rem;
   text-align: center;
   color: #ccc;
