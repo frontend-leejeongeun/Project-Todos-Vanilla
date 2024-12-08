@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TODO-VanilaJS</title>
+  </head>
+  <body>
+    <div class="todo-wrapper">
+      <div class="todo-title">todos</div>
+      <div class="todo-box">
+        <div class="todo-input-box">
+          <button class="complete-all-btn">✔</button>
+          <input
+            type="text"
+            class="todo-input"
+            placeholder="해야 할 일을 입력해주세요. Enter"
+          />
+        </div>
+        <ul class="todo-list"></ul>
+        <div class="todo-bottom">
+          <div class="left-items"></div>
+          <div class="button-group">
+            <button class="show-all-btn selected" data-type="all">
+              전체 할 일
+            </button>
+            <button class="show-active-btn" data-type="active">
+              남은 할 일
+            </button>
+            <button class="show-completed-btn" data-type="completed">
+              완료 된 할 일
+            </button>
+          </div>
+          <button class="clear-completed-btn">완료 된 할 일 삭제</button>
+        </div>
+      </div>
+      <p class="info">더블클릭 시 수정 가능!</p>
+    </div>
+    <script src="todo.js"></script>
+  </body>
+</html>
