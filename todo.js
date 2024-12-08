@@ -1,3 +1,5 @@
+"use strict";
+
 const todoInputEl = document.querySelector(".todo-input");
 const todoListEl = document.querySelector(".todo-list");
 const completeAllBtnEl = document.querySelector(".complete-all-btn");
